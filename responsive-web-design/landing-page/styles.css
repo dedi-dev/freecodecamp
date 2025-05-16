@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  display: flex;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  background-color: #0096c7;
+}
+
+.img-header {
+  height: 50px;
+  padding-top: 10px;
+}
+
+.navbar {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  padding-top: 5px;
+}
+
+li {
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-weight: 500;
+}
+
+.intro h2 {
+  margin-bottom: 15px;
+}
+
+input[type="email"] {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 1.5em;
+  padding-left: 5px;
+}
+
+input[type="submit"] {
+  background-color: #ffd60a;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+#features {
+  padding-top: 80px;
+}
+
+.service {
+  display: flex;
+}
+
+.div-icon {
+  width: 200px;
+  height: 125px;
+}
+
+.description {
+  width: 800px;
+  height: 125px;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.description h2 {
+  margin-bottom: 5px;
+}
+
+ion-icon {
+  font-size: 64px;
+  color: #d00000;
+}
+
+#howitwork {
+  padding-top: 80px;
+}
+
+#pricing {
+  padding-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  height: 316;
+  border: 1px solid #d00000;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.card-header {
+  height: 40px;
+  background-color: #d00000;
+  padding-top: 1.5em;
+  margin-bottom: 15px;
+}
+
+.price {
+  margin-bottom: 17px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #ffd60a;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #0096c7;
+  padding: 25px;
+  text-align: right;
+}
+
+.navbar-footer li {
+  margin-right: 10px;
+}
+
+footer p {
+  font-size: 0.75em;
+  font-weight: 100;
+}
+
+@media (max-width: 520px) {
+  .navbar {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-right: 20px;
+    align-items: flex-end;
+  }
+  header {
+    height: 80px;
+  }
+}
