@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Playfair Display', serif;
+}
+#main {
+  background-color: lightgray;
+  text-align: center;
+}
+#title {
+  padding-top: 2em;
+}
+#img-div {
+  background-color: white;
+  margin: 50px 1%;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#tribute-info {
+  align-self: center;
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+}
+#tribute-info li {
+  margin-bottom: 1em;
+}
+#tribute-info figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#tribute-info figcaption {
+  margin-top: 2em;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
